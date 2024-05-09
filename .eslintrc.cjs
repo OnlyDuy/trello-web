@@ -16,6 +16,7 @@ module.exports = {
     'react-refresh'
   ],
   rules: {
+    //React
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
@@ -26,6 +27,15 @@ module.exports = {
     'react/prop-types': 0,
     'react/display-name': 0,
 
+    // MUI
+    'no-restricted-imports': [
+      'error',
+      {
+        'patterns': ['@mui/*/*/*']
+      }
+    ],
+
+    // COMMON
     'no-console': 1,
     'no-lonely-if': 1,
     'no-unused-vars': 1,
