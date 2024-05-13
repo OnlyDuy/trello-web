@@ -54,5 +54,7 @@ module.exports = {
     'comma-dangle': 1,
     'comma-spacing': 1,
     'arrow-spacing': 1
+    // 'noUnusedLocals': false,
+    // 'noUnusedParameters': false
   },
 }
