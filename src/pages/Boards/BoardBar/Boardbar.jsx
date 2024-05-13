@@ -35,7 +35,6 @@ function Boardbar() {
       justifyContent: 'space-between',
       gap: 2,
       overflow: 'auto',
-      borderBottom: '1px solid white',
       bgcolor: (theme) => (theme.palette.mode === 'dark' ? '#34495e' : '#1976d2')
     }}>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
