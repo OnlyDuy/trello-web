@@ -17,7 +17,7 @@ function ListColums({ columns }) {
         overflowY: 'hidden',
         '&::-webkit-scrollbar-track': { m: 2 }
       }}>
-        {columns?.map(column => (<Column key={column._id} column={column} />))}
+        {columns?.map(column => <Column key={column._id} column={column} />)}
         {/* {columns?.map((column) => {
           return (<Column key={column._id} />)
         })} */}
